@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "socialclub",
+  "version": "${version}",
+  "name": "SocialClub",
+  "description": "A mod that brings eazy social system for server",
+  "authors": [
+    "Sam_Chai"
+  ],
+  "contact": {
+    "website": "https://persists.link",
+    "repo": "https://github.com/BotW-Minecraft-Server/SocialClub"
+  },
+  "license": "MIT",
+  "icon": "assets/socialclub/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "link.botwmcs.socialclub.client.SocialClubClient"
+    ],
+    "main": [
+      "link.botwmcs.socialclub.SocialClub"
+    ]
+  },
+  "mixins": [
+    "socialclub.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
