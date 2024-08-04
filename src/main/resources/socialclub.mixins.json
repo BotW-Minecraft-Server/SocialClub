@@ -4,6 +4,8 @@
   "package": "link.botwmcs.socialclub.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "cadmus.CadmusClientFabricMixin",
+    "cadmus.ModUtilsMixin"
   ],
   "client": [
   ],

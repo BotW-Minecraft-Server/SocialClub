@@ -78,13 +78,13 @@ dependencies {
     // Terrarium mods
     modImplementation group: "earth.terrarium.cadmus", name: "cadmus-fabric-1.20.1", version: cadmus_version
     include group: "earth.terrarium.cadmus", name: "cadmus-fabric-1.20.1", version: cadmus_version
-    modImplementation group: "earth.terrarium.prometheus", name: "prometheus-fabric-1.20.1", version: prometheus_version
-    include group: "earth.terrarium.prometheus", name: "prometheus-fabric-1.20.1", version: prometheus_version
+//    modImplementation group: "earth.terrarium.prometheus", name: "prometheus-fabric-1.20.1", version: prometheus_version
+//    include group: "earth.terrarium.prometheus", name: "prometheus-fabric-1.20.1", version: prometheus_version
 //    modImplementation group: "earth.terrarium.argonauts", name: "argonauts-fabric-1.20.1", version: argonauts_version
 //    include group: "earth.terrarium.argonauts", name: "argonauts-fabric-1.20.1", version: argonauts_version
 
-    // LuckPerms
-    compileOnly 'net.luckperms:api:5.4'
+//    // LuckPerms
+//    compileOnly 'net.luckperms:api:5.4'
 
 }
 
